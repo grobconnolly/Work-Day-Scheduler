@@ -13,6 +13,14 @@ textarea{
   padding: 10px;
 }
 
+.row1 {
+  padding: 0.5em;
+  margin-bottom: 0.4em;
+  border: 1px solid gray;
+  border-radius: 0.5em;
+}
+
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -31,9 +39,10 @@ textarea{
 }
 
 .row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
+  padding: 0.5em;
+  margin-bottom: 0.4em;
+  border: 1px solid gray;
+  border-radius: 0.5em;
 }
 
 .hour {
@@ -70,13 +79,8 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-.gray {
-  background-color: gray;
-}
+
 .red {
   background-color: red;
 
-}
-.green{
-  background-color: green;
 }
