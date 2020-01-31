@@ -12,7 +12,7 @@ let currentHour = parseInt(moment().format('H'));
 // lets make sure we are getting expected output
 console.log(currentHour);
 
-
+// makes a row id to compare
 Array.from(rows).forEach(row => {
   let
     rowIdString = row.id,
@@ -32,6 +32,7 @@ Array.from(rows).forEach(row => {
   }
 });
 
+// function to set the background color based of hour
 function setColor(element, color) {
   element.style.backgroundColor = color;
 }
