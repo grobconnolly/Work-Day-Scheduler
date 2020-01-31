@@ -78,3 +78,7 @@ body {
 
 }
 
+.border-0 {
+  color: black;
+  margin-top: -30px;
+}
